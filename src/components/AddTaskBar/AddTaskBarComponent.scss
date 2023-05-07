@@ -1,0 +1,13 @@
+.addTaskBar {
+  border-style: solid;
+  width: 293px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  border-color: #cfcfcf9d;
+
+  &:active{
+    border-color: #cfcfcf9d;
+  }
+}
