@@ -1,9 +1,10 @@
-import { useState } from 'react'
 import Button from '../Button/ButtonComponent'
 
+import { useState } from 'react'
+
 const ButtonBar = (props) => {
-  const [activeFilter, setActiveFilter] = useState('all');
-  
+  const [activeFilter, setActiveFilter] = useState('all')
+
   return (
     <div className="buttons">
       <Button

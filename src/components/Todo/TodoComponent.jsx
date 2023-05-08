@@ -1,8 +1,11 @@
-import { useState, useEffect } from 'react'
 import AddTaskBar from '../AddTaskBar/AddTaskBarComponent'
 import ButtonBar from '../ButtonBar/ButtonBarComponent'
 import TaskDashboard from '../TaskDashBoard/TaskDashBoardComponent'
+
+import { useState, useEffect } from 'react'
+
 import './Todo.scss'
+
 const TodoList = () => {
   const [input, setInput] = useState('')
   const [todoList, setTodoList] = useState([])

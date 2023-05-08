@@ -1,15 +1,15 @@
-
-.todoList{
-    .topBar, .taskBar{
-        background-color: white;
-        padding: 50px;
-    }
-    .topBar{
-        padding-bottom: 0px;
-        border-radius: 4px 4px 0px 0px;
-    }
-    .taskBar{
-        padding-top: 0px;
-        border-radius: 0px 0px 4px 4px;
-    }
+.todoList {
+  .topBar,
+  .taskBar {
+    background-color: white;
+    padding: 50px;
+  }
+  .topBar {
+    padding-bottom: 0px;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .taskBar {
+    padding-top: 0px;
+    border-radius: 0px 0px 4px 4px;
+  }
 }

@@ -1,6 +1,7 @@
 $filterBtnColor: #4d94fc;
 
-.edit, .delete {
+.edit,
+.delete {
   background-color: transparent;
   padding: 5px;
   font-size: 13px;
@@ -11,26 +12,26 @@ $filterBtnColor: #4d94fc;
   text-align: justify;
   margin: 0;
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
 
   &:hover {
     color: $filterBtnColor;
   }
 }
 
-.popupMenu{
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    background: linear-gradient(to bottom, #f8f6f6, #fff);
-    padding: 5px 10px;
-    position: absolute;
-    right: 0;
-    bottom: -55px;
-    z-index: 10;
-    border-radius: 4px;
+.popupMenu {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f8f6f6, #fff);
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  bottom: -55px;
+  z-index: 10;
+  border-radius: 4px;
 }
 
-.icon{
-    margin-right: 5px;
+.icon {
+  margin-right: 5px;
 }

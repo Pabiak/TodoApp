@@ -1,9 +1,11 @@
-import TodoList from "./components/Todo/TodoComponent"
+import TodoList from './components/Todo/TodoComponent'
+
 import './App.scss'
+
 const App = () => {
   return (
     <>
-     <TodoList/>
+      <TodoList />
     </>
   )
 }

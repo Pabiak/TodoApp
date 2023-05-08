@@ -1,4 +1,5 @@
-import Task from "../Task/TaskComponent"
+import Task from '../Task/TaskComponent'
+
 import './TaskDashBoardComponent.scss'
 
 const TaskDashboard = (props) => {
